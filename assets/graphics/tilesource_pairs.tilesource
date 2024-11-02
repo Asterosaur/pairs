@@ -1,0 +1,12 @@
+image: "/assets/graphics/tileset.png"
+tile_width: 128
+tile_height: 128
+tile_spacing: 16
+collision_groups: "default"
+animations {
+  id: "anim"
+  start_tile: 1
+  end_tile: 7
+  playback: PLAYBACK_LOOP_PINGPONG
+  fps: 60
+}
